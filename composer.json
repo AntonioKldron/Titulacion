@@ -1,0 +1,9 @@
+{
+    "require": {
+        "phpoffice/phpword": "^1.1",
+        "mikehaertl/php-pdftk": "^0.13.0",
+        "mpdf/mpdf": "^6.1",
+        "tecnickcom/tcpdf": "^6.6"
+    }
+    
+}

@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+body{
+    background-image: url("https://www.universitasm.com/wp-content/uploads/2021/04/Instituto-Tecnologico-de-Morelia-56-anos-de-formar-profesionistas-para-el-mundo-3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex; 
+    justify-content: center;
+    align-content: center;
+    padding-top: 3rem;
+}
+
+.cart{
+    height: 500px; 
+    width: 1020px; 
+    background-color: rgb(255, 255, 255); 
+    border-radius: 1rem;
+    border: 1px solid rgb(236, 236, 236);
+}
+
+.containerCart{
+    display: flex;
+}
+
+.titulo{
+    font-size: 15px;
+    font-family: "Montserrat", sans-serif;
+    height: 10%; 
+    text-align: center;
+}
+
+.formulario{
+    font-size: 14px;
+    font-family: "Montserrat", sans-serif;
+    text-align: left;
+    padding-left: 1rem;
+    padding-top: 10px;
+}
+
+.formulario input{
+    font-size: 12px;
+    font-family: "Montserrat", sans-serif;
+    border: none;
+    width: 30rem;
+    border-bottom: 1px solid gray ;
+    border-radius: 3px;
+}
+
+.formulario select{
+    font-size: 12px;
+    font-family: "Montserrat", sans-serif;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    width: 30rem;
+    border-bottom: 1px solid gray ;
+    border-radius: 3px;
+}
+
+#TipoDocumentos {
+    width: 5rem;
+}
+
+#crear {
+    width: 5rem;
+    border: none;
+    background-color: rgb(46, 86, 218);
+    color: aliceblue; 
+    cursor: pointer;
+}
+
+.logo img{
+    width: 80%;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    padding-left: 4rem;
+}

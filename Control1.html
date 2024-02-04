@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario de Captura</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body> 
+    <div class="cart">
+        <div class="containerCart">
+            <div class="formulario" >
+                <form action="managerDAdmin.php" method="post">
+                    <label for="fecha">Fecha:</label><br>
+                    <input type="date" id="fecha" name="fecha" required><br>
+            
+                    <label for="noficio">Número de Oficio:</label><br>
+                    <input type="text" id="noficio" name="noficio" required><br>
+            
+                    <label for="alumno">Alumno:</label><br>
+                    <input type="text" id="alumno" name="alumno" required><br>
+            
+                    <label for="ncontrol">Número de Control:</label><br>
+                    <input type="text" id="ncontrol" name="ncontrol" required><br>
+            
+                    <label for="carrera">Carrera:</label><br>
+                    <select type="text" id="carrera" name="carrera" required>
+                        <option value="INGENIERIA EN SISTEMAS COMPUTACIONALES">INGENIERIA EN SISTEMAS COMPUTACIONALES</option>
+                        <option value="INGENIERIA EN TECNOLOGÍAS DE LA INFORMACIÓN Y LAS COMUNICACIONES">INGENIERIA EN TECNOLOGÍAS DE LA INFORMACIÓN Y LAS COMUNICACIONES</option>
+                    </select><br>
+            
+                    <label for="tituloproyecto">Título del Proyecto:</label><br>
+                    <input type="text" id="tituloproyecto" name="tituloproyecto" required><br>
+            
+                    <label for="tipotitulacion">Opción de Titulación:</label><br>
+                    <select type="text" id="tipotitulacion" name="tipotitulacion" required>
+                        <option value="TITULACIÓN INTEGRAL POR PROYECTO INTEGRAL DE EDUCACIÓN DUAL">TITULACIÓN INTEGRAL POR PROYECTO INTEGRAL DE EDUCACIÓN DUAL</option>
+                        <option value="TITULACIÓN INTEGRAL POR PROYECTO DE INVESTIGACIÓN">TITULACIÓN INTEGRAL POR PROYECTO DE INVESTIGACIÓN</option>
+                        <option value="TITULACIÓN INTEGRAL POR EXAMEN GENERAL PARA EL EGRESO DE LA LICENCIATURA (CENEVAL)">TITULACIÓN INTEGRAL POR EXAMEN GENERAL PARA EL EGRESO DE LA LICENCIATURA (CENEVAL)</option>
+                        <option value="TITULACIÓN INTEGRAL POR INFORME TÉCNICO DE RESIDENCIA PROFESIONAL">TITULACIÓN INTEGRAL POR INFORME TÉCNICO DE RESIDENCIA PROFESIONAL</option>
+                        <option value="TITULACIÓN POR EXPERIENCIA PROFESIONAL">TITULACIÓN POR EXPERIENCIA PROFESIONAL</option>
+                        <option value="TITULACIÓN INTEGRAL POR TESIS">TITULACIÓN INTEGRAL POR TESIS</option>
+                    </select><br>
+
+                    <label for="asesor1">Asesor 1:</label><br>
+                    <select type="text" id="asesor1" name="asesor1" required>
+                          <option value="ABEL ALBERTO PINTOR ESTRADA">ABEL ALBERTO PINTOR ESTRADA</option>
+                        <option value="ADRIÁN NÚÑEZ VIEYRA">ADRIÁN NÚÑEZ VIEYRA</option>
+                        <option value="ALEJANDRO AMARO FLORES">ALEJANDRO AMARO FLORES</option>
+                        <option value="ANASTACIO ANTOLINO HERNÁNDEZ">ANASTACIO ANTOLINO HERNÁNDEZ</option>
+                        <option value="AURELIO AMAURY CORIA RAMIREZ">AURELIO AMAURY CORIA RAMIREZ</option>
+                        <option value="BRENDA GONZÁLEZ GÓMEZ">BRENDA GONZÁLEZ GÓMEZ</option>
+                        <option value="CLAUDIO ERNESTO FLORIÁN ARENAS">CLAUDIO ERNESTO FLORIÁN ARENAS</option>
+                        <option value="EFREN DE JESÚS PACHECO PIMENTEL">EFREN DE JESÚS PACHECO PIMENTEL</option>
+                        <option value="EZEQUIEL PÉREZ HERNÁNDEZ">EZEQUIEL PÉREZ HERNÁNDEZ</option>
+                        <option value="FELIPE MORALES LÓPEZ">FELIPE MORALES LÓPEZ</option>
+                        <option value="FERNANDO VILLASEÑOR BEJAR">FERNANDO VILLASEÑOR BEJAR</option>
+                        <option value="GABRIELA LUA VARGAS">GABRIELA LUA VARGAS</option>
+                        <option value="HEBERTO FERREIRA MEDINA">HEBERTO FERREIRA MEDINA</option>
+                        <option value="HUGO FERNANDO HERNÁNDEZ LÓPEZ">HUGO FERNANDO HERNÁNDEZ LÓPEZ</option>
+                        <option value="J. GUADALUPE RAMOS DÍAZ">J. GUADALUPE RAMOS DÍAZ</option>
+                        <option value="JESÚS EDUARDO ALCARAZ CHÁVEZ">JESÚS EDUARDO ALCARAZ CHÁVEZ</option>
+                        <option value="JORGE EDUARDO CARRIÓN VIRAMONTES">JORGE EDUARDO CARRIÓN VIRAMONTES</option>
+                        <option value="JORGE MORA GARCÍA">JORGE MORA GARCÍA</option>
+                        <option value="JORGE SÁNCHEZ VEGA">JORGE SÁNCHEZ VEGA</option>
+                        <option value="JOSÉ ALFREDO JIMÉNEZ MURILLO">JOSÉ ALFREDO JIMÉNEZ MURILLO</option>
+                        <option value="JOSÉ MANUEL CUIN JACUINDE">JOSÉ MANUEL CUIN JACUINDE</option>
+                        <option value="JUAN CARLOS OLIVARES ROJAS">JUAN CARLOS OLIVARES ROJAS</option>
+                        <option value="JUAN JESÚS RUÍZ LAGUNAS">JUAN JESÚS RUÍZ LAGUNAS</option>
+                        <option value="KENIA ALINE AYALA ROBLES">KENIA ALINE AYALA ROBLES</option>
+                        <option value="LAURA NELLY ALVARADO ZAMORA">LAURA NELLY ALVARADO ZAMORA</option>
+                        <option value="MANUEL RUÍZ LÓPEZ">MANUEL RUÍZ LÓPEZ</option>
+                        <option value="MARÍA YANETH VEGA FLORES">MARÍA YANETH VEGA FLORES</option>
+                        <option value="MIRIAM ZULMA SÁNCHEZ HERNÁNDEZ">MIRIAM ZULMA SÁNCHEZ HERNÁNDEZ</option>
+                        <option value="MÓNICA ADRIANA BLANCAS MARTÍNEZ">MÓNICA ADRIANA BLANCAS MARTÍNEZ</option>
+                        <option value="ROCÍO CONTRERAS JIMÉNEZ">ROCÍO CONTRERAS JIMÉNEZ</option>
+                        <option value="ROGELIO FERREIRA ESCUTIA">ROGELIO FERREIRA ESCUTIA</option>
+                        <option value="ROQUE TRUJILLO RAMOS">ROQUE TRUJILLO RAMOS</option>
+                        <option value="RUTH VARGAS RIVERA">RUTH VARGAS RIVERA</option>
+                        <option value="SALVADOR JOANATHAN VILLAGÓMEZ CÁRDENAS">SALVADOR JOANATHAN VILLAGÓMEZ CÁRDENAS</option></select><br>
+
+                    
+                        <label for="asesor2">Asesor 2:</label><br>
+                    <select type="text" id="asesor2" name="asesor2" required>
+                          <option value="ABEL ALBERTO PINTOR ESTRADA">ABEL ALBERTO PINTOR ESTRADA</option>
+                        <option value="ADRIÁN NÚÑEZ VIEYRA">ADRIÁN NÚÑEZ VIEYRA</option>
+                        <option value="ALEJANDRO AMARO FLORES">ALEJANDRO AMARO FLORES</option>
+                        <option value="ANASTACIO ANTOLINO HERNÁNDEZ">ANASTACIO ANTOLINO HERNÁNDEZ</option>
+                        <option value="AURELIO AMAURY CORIA RAMIREZ">AURELIO AMAURY CORIA RAMIREZ</option>
+                        <option value="BRENDA GONZÁLEZ GÓMEZ">BRENDA GONZÁLEZ GÓMEZ</option>
+                        <option value="CLAUDIO ERNESTO FLORIÁN ARENAS">CLAUDIO ERNESTO FLORIÁN ARENAS</option>
+                        <option value="EFREN DE JESÚS PACHECO PIMENTEL">EFREN DE JESÚS PACHECO PIMENTEL</option>
+                        <option value="EZEQUIEL PÉREZ HERNÁNDEZ">EZEQUIEL PÉREZ HERNÁNDEZ</option>
+                        <option value="FELIPE MORALES LÓPEZ">FELIPE MORALES LÓPEZ</option>
+                        <option value="FERNANDO VILLASEÑOR BEJAR">FERNANDO VILLASEÑOR BEJAR</option>
+                        <option value="GABRIELA LUA VARGAS">GABRIELA LUA VARGAS</option>
+                        <option value="HEBERTO FERREIRA MEDINA">HEBERTO FERREIRA MEDINA</option>
+                        <option value="HUGO FERNANDO HERNÁNDEZ LÓPEZ">HUGO FERNANDO HERNÁNDEZ LÓPEZ</option>
+                        <option value="J. GUADALUPE RAMOS DÍAZ">J. GUADALUPE RAMOS DÍAZ</option>
+                        <option value="JESÚS EDUARDO ALCARAZ CHÁVEZ">JESÚS EDUARDO ALCARAZ CHÁVEZ</option>
+                        <option value="JORGE EDUARDO CARRIÓN VIRAMONTES">JORGE EDUARDO CARRIÓN VIRAMONTES</option>
+                        <option value="JORGE MORA GARCÍA">JORGE MORA GARCÍA</option>
+                        <option value="JORGE SÁNCHEZ VEGA">JORGE SÁNCHEZ VEGA</option>
+                        <option value="JOSÉ ALFREDO JIMÉNEZ MURILLO">JOSÉ ALFREDO JIMÉNEZ MURILLO</option>
+                        <option value="JOSÉ MANUEL CUIN JACUINDE">JOSÉ MANUEL CUIN JACUINDE</option>
+                        <option value="JUAN CARLOS OLIVARES ROJAS">JUAN CARLOS OLIVARES ROJAS</option>
+                        <option value="JUAN JESÚS RUÍZ LAGUNAS">JUAN JESÚS RUÍZ LAGUNAS</option>
+                        <option value="KENIA ALINE AYALA ROBLES">KENIA ALINE AYALA ROBLES</option>
+                        <option value="LAURA NELLY ALVARADO ZAMORA">LAURA NELLY ALVARADO ZAMORA</option>
+                        <option value="MANUEL RUÍZ LÓPEZ">MANUEL RUÍZ LÓPEZ</option>
+                        <option value="MARÍA YANETH VEGA FLORES">MARÍA YANETH VEGA FLORES</option>
+                        <option value="MIRIAM ZULMA SÁNCHEZ HERNÁNDEZ">MIRIAM ZULMA SÁNCHEZ HERNÁNDEZ</option>
+                        <option value="MÓNICA ADRIANA BLANCAS MARTÍNEZ">MÓNICA ADRIANA BLANCAS MARTÍNEZ</option>
+                        <option value="ROCÍO CONTRERAS JIMÉNEZ">ROCÍO CONTRERAS JIMÉNEZ</option>
+                        <option value="ROGELIO FERREIRA ESCUTIA">ROGELIO FERREIRA ESCUTIA</option>
+                        <option value="ROQUE TRUJILLO RAMOS">ROQUE TRUJILLO RAMOS</option>
+                        <option value="RUTH VARGAS RIVERA">RUTH VARGAS RIVERA</option>
+                        <option value="SALVADOR JOANATHAN VILLAGÓMEZ CÁRDENAS">SALVADOR JOANATHAN VILLAGÓMEZ CÁRDENAS</option></select><br>
+                    
+                        <label for="asesor3">Asesor 3:</label><br>
+                    <select type="text" id="asesor3" name="asesor3" required>
+                          <option value="ABEL ALBERTO PINTOR ESTRADA">ABEL ALBERTO PINTOR ESTRADA</option>
+                        <option value="ADRIÁN NÚÑEZ VIEYRA">ADRIÁN NÚÑEZ VIEYRA</option>
+                        <option value="ALEJANDRO AMARO FLORES">ALEJANDRO AMARO FLORES</option>
+                        <option value="ANASTACIO ANTOLINO HERNÁNDEZ">ANASTACIO ANTOLINO HERNÁNDEZ</option>
+                        <option value="AURELIO AMAURY CORIA RAMIREZ">AURELIO AMAURY CORIA RAMIREZ</option>
+                        <option value="BRENDA GONZÁLEZ GÓMEZ">BRENDA GONZÁLEZ GÓMEZ</option>
+                        <option value="CLAUDIO ERNESTO FLORIÁN ARENAS">CLAUDIO ERNESTO FLORIÁN ARENAS</option>
+                        <option value="EFREN DE JESÚS PACHECO PIMENTEL">EFREN DE JESÚS PACHECO PIMENTEL</option>
+                        <option value="EZEQUIEL PÉREZ HERNÁNDEZ">EZEQUIEL PÉREZ HERNÁNDEZ</option>
+                        <option value="FELIPE MORALES LÓPEZ">FELIPE MORALES LÓPEZ</option>
+                        <option value="FERNANDO VILLASEÑOR BEJAR">FERNANDO VILLASEÑOR BEJAR</option>
+                        <option value="GABRIELA LUA VARGAS">GABRIELA LUA VARGAS</option>
+                        <option value="HEBERTO FERREIRA MEDINA">HEBERTO FERREIRA MEDINA</option>
+                        <option value="HUGO FERNANDO HERNÁNDEZ LÓPEZ">HUGO FERNANDO HERNÁNDEZ LÓPEZ</option>
+                        <option value="J. GUADALUPE RAMOS DÍAZ">J. GUADALUPE RAMOS DÍAZ</option>
+                        <option value="JESÚS EDUARDO ALCARAZ CHÁVEZ">JESÚS EDUARDO ALCARAZ CHÁVEZ</option>
+                        <option value="JORGE EDUARDO CARRIÓN VIRAMONTES">JORGE EDUARDO CARRIÓN VIRAMONTES</option>
+                        <option value="JORGE MORA GARCÍA">JORGE MORA GARCÍA</option>
+                        <option value="JORGE SÁNCHEZ VEGA">JORGE SÁNCHEZ VEGA</option>
+                        <option value="JOSÉ ALFREDO JIMÉNEZ MURILLO">JOSÉ ALFREDO JIMÉNEZ MURILLO</option>
+                        <option value="JOSÉ MANUEL CUIN JACUINDE">JOSÉ MANUEL CUIN JACUINDE</option>
+                        <option value="JUAN CARLOS OLIVARES ROJAS">JUAN CARLOS OLIVARES ROJAS</option>
+                        <option value="JUAN JESÚS RUÍZ LAGUNAS">JUAN JESÚS RUÍZ LAGUNAS</option>
+                        <option value="KENIA ALINE AYALA ROBLES">KENIA ALINE AYALA ROBLES</option>
+                        <option value="LAURA NELLY ALVARADO ZAMORA">LAURA NELLY ALVARADO ZAMORA</option>
+                        <option value="MANUEL RUÍZ LÓPEZ">MANUEL RUÍZ LÓPEZ</option>
+                        <option value="MARÍA YANETH VEGA FLORES">MARÍA YANETH VEGA FLORES</option>
+                        <option value="MIRIAM ZULMA SÁNCHEZ HERNÁNDEZ">MIRIAM ZULMA SÁNCHEZ HERNÁNDEZ</option>
+                        <option value="MÓNICA ADRIANA BLANCAS MARTÍNEZ">MÓNICA ADRIANA BLANCAS MARTÍNEZ</option>
+                        <option value="ROCÍO CONTRERAS JIMÉNEZ">ROCÍO CONTRERAS JIMÉNEZ</option>
+                        <option value="ROGELIO FERREIRA ESCUTIA">ROGELIO FERREIRA ESCUTIA</option>
+                        <option value="ROQUE TRUJILLO RAMOS">ROQUE TRUJILLO RAMOS</option>
+                        <option value="RUTH VARGAS RIVERA">RUTH VARGAS RIVERA</option>
+                        <option value="SALVADOR JOANATHAN VILLAGÓMEZ CÁRDENAS">SALVADOR JOANATHAN VILLAGÓMEZ CÁRDENAS</option></select><br>
+                    
+                        <label for="asesor4">Asesor 4:</label><br>
+                    <select type="text" id="asesor4" name="asesor4" required>
+                          <option value="ABEL ALBERTO PINTOR ESTRADA">ABEL ALBERTO PINTOR ESTRADA</option>
+                        <option value="ADRIÁN NÚÑEZ VIEYRA">ADRIÁN NÚÑEZ VIEYRA</option>
+                        <option value="ALEJANDRO AMARO FLORES">ALEJANDRO AMARO FLORES</option>
+                        <option value="ANASTACIO ANTOLINO HERNÁNDEZ">ANASTACIO ANTOLINO HERNÁNDEZ</option>
+                        <option value="AURELIO AMAURY CORIA RAMIREZ">AURELIO AMAURY CORIA RAMIREZ</option>
+                        <option value="BRENDA GONZÁLEZ GÓMEZ">BRENDA GONZÁLEZ GÓMEZ</option>
+                        <option value="CLAUDIO ERNESTO FLORIÁN ARENAS">CLAUDIO ERNESTO FLORIÁN ARENAS</option>
+                        <option value="EFREN DE JESÚS PACHECO PIMENTEL">EFREN DE JESÚS PACHECO PIMENTEL</option>
+                        <option value="EZEQUIEL PÉREZ HERNÁNDEZ">EZEQUIEL PÉREZ HERNÁNDEZ</option>
+                        <option value="FELIPE MORALES LÓPEZ">FELIPE MORALES LÓPEZ</option>
+                        <option value="FERNANDO VILLASEÑOR BEJAR">FERNANDO VILLASEÑOR BEJAR</option>
+                        <option value="GABRIELA LUA VARGAS">GABRIELA LUA VARGAS</option>
+                        <option value="HEBERTO FERREIRA MEDINA">HEBERTO FERREIRA MEDINA</option>
+                        <option value="HUGO FERNANDO HERNÁNDEZ LÓPEZ">HUGO FERNANDO HERNÁNDEZ LÓPEZ</option>
+                        <option value="J. GUADALUPE RAMOS DÍAZ">J. GUADALUPE RAMOS DÍAZ</option>
+                        <option value="JESÚS EDUARDO ALCARAZ CHÁVEZ">JESÚS EDUARDO ALCARAZ CHÁVEZ</option>
+                        <option value="JORGE EDUARDO CARRIÓN VIRAMONTES">JORGE EDUARDO CARRIÓN VIRAMONTES</option>
+                        <option value="JORGE MORA GARCÍA">JORGE MORA GARCÍA</option>
+                        <option value="JORGE SÁNCHEZ VEGA">JORGE SÁNCHEZ VEGA</option>
+                        <option value="JOSÉ ALFREDO JIMÉNEZ MURILLO">JOSÉ ALFREDO JIMÉNEZ MURILLO</option>
+                        <option value="JOSÉ MANUEL CUIN JACUINDE">JOSÉ MANUEL CUIN JACUINDE</option>
+                        <option value="JUAN CARLOS OLIVARES ROJAS">JUAN CARLOS OLIVARES ROJAS</option>
+                        <option value="JUAN JESÚS RUÍZ LAGUNAS">JUAN JESÚS RUÍZ LAGUNAS</option>
+                        <option value="KENIA ALINE AYALA ROBLES">KENIA ALINE AYALA ROBLES</option>
+                        <option value="LAURA NELLY ALVARADO ZAMORA">LAURA NELLY ALVARADO ZAMORA</option>
+                        <option value="MANUEL RUÍZ LÓPEZ">MANUEL RUÍZ LÓPEZ</option>
+                        <option value="MARÍA YANETH VEGA FLORES">MARÍA YANETH VEGA FLORES</option>
+                        <option value="MIRIAM ZULMA SÁNCHEZ HERNÁNDEZ">MIRIAM ZULMA SÁNCHEZ HERNÁNDEZ</option>
+                        <option value="MÓNICA ADRIANA BLANCAS MARTÍNEZ">MÓNICA ADRIANA BLANCAS MARTÍNEZ</option>
+                        <option value="ROCÍO CONTRERAS JIMÉNEZ">ROCÍO CONTRERAS JIMÉNEZ</option>
+                        <option value="ROGELIO FERREIRA ESCUTIA">ROGELIO FERREIRA ESCUTIA</option>
+                        <option value="ROQUE TRUJILLO RAMOS">ROQUE TRUJILLO RAMOS</option>
+                        <option value="RUTH VARGAS RIVERA">RUTH VARGAS RIVERA</option>
+                        <option value="SALVADOR JOANATHAN VILLAGÓMEZ CÁRDENAS">SALVADOR JOANATHAN VILLAGÓMEZ CÁRDENAS</option></select><br>
+
+                        <br><label for="TipoDocumentos">TipoDocumentos:</label>
+                        <select type="text" id="TipoDocumentos" name="TipoDocumentos" required>
+                            <option value="Doc0-1-2">Doc0-1-2</option>
+                            <option value="Doc3-6">Doc3-6</option>
+                        </select><br>
+
+                    <br><input  id="crear" type="submit" value="CREAR">
+                </form>
+            </div>
+            <div class="logo">
+                <div><img src="img/logo.png" alt="imagen"></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
